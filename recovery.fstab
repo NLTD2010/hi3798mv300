@@ -1,0 +1,23 @@
+# mount point       fstype    device                                                                flags
+/fastboot           emmc      /dev/block/platform/soc/by-name/fastboot                              flags=display="Fastboot";
+/bootargs           emmc      /dev/block/platform/soc/by-name/bootargs                              flags=display="Bootargs";
+/recovery           emmc      /dev/block/platform/soc/by-name/recovery                              flags=display="Recovery";backup=1;flashimg=1;
+/deviceinfo         emmc      /dev/block/platform/soc/by-name/deviceinfo                            flags=display="Deviceinfo";
+/baseparam          emmc      /dev/block/platform/soc/by-name/baseparam                             flags=display="Baseparam";
+/logo               emmc      /dev/block/platform/soc/by-name/logo                                  flags=display="Logo";
+/logo               bak       /dev/block/platform/soc/by-name/logobak                               flags=display="Logo";
+/fastplay           emmc      /dev/block/platform/soc/by-name/fastplay                              flags=display="Fastplay";
+/fastplaybak        emmc      /dev/block/platform/soc/by-name/fastplaybak                           flags=display="Fastplaybak";
+/kernel             emmc      /dev/block/platform/soc/by-name/kernel                                flags=display="Kernel";
+/misc               emmc      /dev/block/platform/soc/by-name/misc                                  flags=display="Misc";backup=1;flashimg=1;
+/factory            emmc      /dev/block/platform/soc/by-name/factory                               flags=display="Factory";
+/trustedcore        emmc      /dev/block/platform/soc/by-name/trustedcore                           flags=display="Trustedcore";
+/backup             ext4      /dev/block/platform/soc/by-name/backup                                flags=display="Backup";
+/system             ext4      /dev/block/platform/soc/by-name/system                                flags=display="System";backup=1;
+/system_image       emmc      /dev/block/platform/soc/by-name/system                                flags=display="System image";backup=1;flashimg=1;
+/cache              ext4      /dev/block/platform/soc/by-name/cache                                 flags=display="Cache";
+/private            ext4      /dev/block/platform/soc/by-name/private                               flags=display="Private";
+/securestore        ext4      /dev/block/platform/soc/by-name/securestore                           flags=display="Securestore";
+/userdata           ext4      /dev/block/platform/soc/by-name/userdata                              flags=display="Userdata";
+/usb                auto      /dev/block/sda1                                                       flags=display="Usb";
+/sdcard1            auto      /dev/block/mmcblk1p1                                                  flags=display="Sdcard1";
